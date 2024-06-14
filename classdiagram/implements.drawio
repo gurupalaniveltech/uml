@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" modified="2024-06-14T07:58:17.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="R3N1PjskSohb42AMiWxu" version="24.5.4" type="github">
+  <diagram name="Page-1" id="1iCULwu_rjzHz1cn6n-0">
+    <mxGraphModel dx="1434" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-1" value="&lt;&lt;interface&gt;&gt;&#xa;Animal" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="110" width="121" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JMDE9Y_R4rqVfzkr_TN3-1">
+          <mxGeometry y="48" width="121" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-3" value="~play() : : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JMDE9Y_R4rqVfzkr_TN3-1">
+          <mxGeometry y="56" width="121" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-4" value="Dog" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="283" width="121" height="66.2" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="JMDE9Y_R4rqVfzkr_TN3-4">
+          <mxGeometry y="29.2" width="121" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-6" value="~play() : : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="JMDE9Y_R4rqVfzkr_TN3-4">
+          <mxGeometry y="37.2" width="121" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-7" value="Implementation (realization or execution)" style="align=left;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="191" y="55" width="317" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="JMDE9Y_R4rqVfzkr_TN3-8" value="implements" style="curved=1;dashed=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="JMDE9Y_R4rqVfzkr_TN3-1" target="JMDE9Y_R4rqVfzkr_TN3-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
